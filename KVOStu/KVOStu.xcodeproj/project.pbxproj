@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CF2F7ED9B77745CF910CFA4 /* Pods_KVOStu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 145059F43A11C0E832F2C5E9 /* Pods_KVOStu.framework */; };
 		9194398B204F9382003B4518 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9194398A204F9382003B4518 /* AppDelegate.swift */; };
 		9194398D204F9382003B4518 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9194398C204F9382003B4518 /* ViewController.swift */; };
 		91943990204F9382003B4518 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9194398E204F9382003B4518 /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08661D278B67C8D32518910D /* Pods-KVOStu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KVOStu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KVOStu/Pods-KVOStu.debug.xcconfig"; sourceTree = "<group>"; };
+		145059F43A11C0E832F2C5E9 /* Pods_KVOStu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KVOStu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91943987204F9382003B4518 /* KVOStu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KVOStu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9194398A204F9382003B4518 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9194398C204F9382003B4518 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		91943991204F9382003B4518 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91943994204F9382003B4518 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91943996204F9382003B4518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDF951E6AF63217D03F03A29 /* Pods-KVOStu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KVOStu.release.xcconfig"; path = "Pods/Target Support Files/Pods-KVOStu/Pods-KVOStu.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CF2F7ED9B77745CF910CFA4 /* Pods_KVOStu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,8 @@
 			children = (
 				91943989204F9382003B4518 /* KVOStu */,
 				91943988204F9382003B4518 /* Products */,
+				BCC6B46FC4558C44776986A8 /* Pods */,
+				9E7BC39200A9F62F16D6EC58 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +71,23 @@
 			path = KVOStu;
 			sourceTree = "<group>";
 		};
+		9E7BC39200A9F62F16D6EC58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				145059F43A11C0E832F2C5E9 /* Pods_KVOStu.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCC6B46FC4558C44776986A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08661D278B67C8D32518910D /* Pods-KVOStu.debug.xcconfig */,
+				EDF951E6AF63217D03F03A29 /* Pods-KVOStu.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 91943999204F9382003B4518 /* Build configuration list for PBXNativeTarget "KVOStu" */;
 			buildPhases = (
+				8613CA68AEEF57FBB4369484 /* [CP] Check Pods Manifest.lock */,
 				91943983204F9382003B4518 /* Sources */,
 				91943984204F9382003B4518 /* Frameworks */,
 				91943985204F9382003B4518 /* Resources */,
+				869B99B8638B3CB8EDC66995 /* [CP] Embed Pods Frameworks */,
+				4632118C469D650F24F2DEEC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,6 +157,60 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4632118C469D650F24F2DEEC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KVOStu/Pods-KVOStu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8613CA68AEEF57FBB4369484 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KVOStu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		869B99B8638B3CB8EDC66995 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KVOStu/Pods-KVOStu-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/KVOController/KVOController.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KVOController.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KVOStu/Pods-KVOStu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		91943983204F9382003B4518 /* Sources */ = {
@@ -272,6 +353,7 @@
 		};
 		9194399A204F9382003B4518 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08661D278B67C8D32518910D /* Pods-KVOStu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -288,6 +370,7 @@
 		};
 		9194399B204F9382003B4518 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDF951E6AF63217D03F03A29 /* Pods-KVOStu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;

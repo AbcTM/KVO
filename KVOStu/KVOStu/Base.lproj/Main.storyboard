@@ -22,25 +22,16 @@
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="U9D-Ee-MsC">
                                 <rect key="frame" x="54.5" y="37" width="266.5" height="31"/>
                             </slider>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oRY-kw-xlU">
-                                <rect key="frame" x="182" y="333" width="10.5" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="U9D-Ee-MsC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="17" id="Cz5-aA-UBP"/>
                             <constraint firstItem="U9D-Ee-MsC" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.7" id="MbZ-kK-uT0"/>
-                            <constraint firstItem="oRY-kw-xlU" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="TrI-p1-yl5"/>
                             <constraint firstItem="U9D-Ee-MsC" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="YFT-el-NFI"/>
-                            <constraint firstItem="oRY-kw-xlU" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="c88-vi-0zU"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="showLabel" destination="oRY-kw-xlU" id="xsc-vU-D5s"/>
                         <outlet property="slider" destination="U9D-Ee-MsC" id="2J0-kX-yji"/>
                     </connections>
                 </viewController>
